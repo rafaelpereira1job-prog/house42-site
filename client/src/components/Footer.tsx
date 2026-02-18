@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-[#D0021B] rounded-full animate-pulse" />
               <span className="font-condensed text-xs tracking-widest uppercase text-[#555]">
-                São Paulo, Brasil
+                Everywhere
               </span>
             </div>
           </div>

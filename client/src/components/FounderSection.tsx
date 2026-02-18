@@ -66,40 +66,54 @@ export default function FounderSection() {
             </div>
 
             <h2 className="font-display text-white leading-none mb-4" style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}>
-              MARCELO<br />
-              <span className="text-[#D0021B]">SILVA</span>
+              RAFAEL<br />
+              <span className="text-[#D0021B]">PEREIRA</span>
             </h2>
 
             <p className="font-condensed font-600 text-[#D0021B] text-lg tracking-wide mb-6">
-              Fundador & Estrategista de Performance
+              Fundador & Publicitário
             </p>
 
             <p className="font-body text-[#888] text-base leading-relaxed mb-8">
-              Com mais de 5 anos de experiência em performance marketing, Marcelo liderou campanhas que geraram milhões em receita para marcas de diferentes segmentos. Sua obsessão por dados e resultados mensuráveis é o DNA da House 42.
+              Com 9+ anos de experiência em mídia paga e marketing, Rafael trabalhou com grandes marcas como Autoglass, Piccadilly, Bibi, iPlace e muitas outras. Formado em Publicidade e Propaganda pela Unisinos, sua missão é ser um centro de diagnóstico para transformar negócios.
             </p>
 
             <p className="font-body text-[#777] text-sm leading-relaxed mb-10">
-              "Não acreditamos em vanity metrics. Cada real investido deve gerar retorno comprovado. Essa é a filosofia que guia cada decisão na House 42."
+              "Cansado de ver agências aceitarem projetos em que não acreditavam, criei a House 42 para trabalhar apenas com projetos que conseguimos mover os ponteiros. Gente boa + perseguir a perfeição + acreditar no que faz."
             </p>
 
             {/* Achievements */}
             <div className="space-y-4">
-              {achievements.map((ach) => (
-                <div key={ach.label} className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-[#D0021B]/10 border border-[#D0021B]/30 flex items-center justify-center flex-shrink-0">
-                    <ach.icon size={16} className="text-[#D0021B]" />
-                  </div>
-                  <span className="font-body text-[#ccc] text-sm">
-                    {ach.label}
-                  </span>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 bg-[#D0021B]/10 border border-[#D0021B]/30 flex items-center justify-center flex-shrink-0">
+                  <Award size={16} className="text-[#D0021B]" />
                 </div>
-              ))}
+                <span className="font-body text-[#ccc] text-sm">
+                  9+ anos em Mídia Paga e Marketing
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 bg-[#D0021B]/10 border border-[#D0021B]/30 flex items-center justify-center flex-shrink-0">
+                  <Target size={16} className="text-[#D0021B]" />
+                </div>
+                <span className="font-body text-[#ccc] text-sm">
+                  Trabalhou com 20+ marcas de diferentes segmentos
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-8 bg-[#D0021B]/10 border border-[#D0021B]/30 flex items-center justify-center flex-shrink-0">
+                  <Users size={16} className="text-[#D0021B]" />
+                </div>
+                <span className="font-body text-[#ccc] text-sm">
+                  Formado em Publicidade e Propaganda (Unisinos)
+                </span>
+              </div>
             </div>
 
             {/* CTA */}
             <div className="mt-10 pt-8 border-t border-[#1a1a1a]">
               <p className="font-body text-[#666] text-sm mb-4">
-                Quer conversar com Marcelo sobre sua estratégia de performance?
+                Quer conversar com Rafael sobre sua estratégia de transformação?
               </p>
               <button
                 onClick={() => {

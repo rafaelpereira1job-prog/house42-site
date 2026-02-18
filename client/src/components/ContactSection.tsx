@@ -4,7 +4,7 @@
  */
 
 import { useState } from "react";
-import { Send, MapPin, Mail, Instagram, Linkedin } from "lucide-react";
+import { Send, MapPin, Mail } from "lucide-react";
 import { toast } from "sonner";
 
 export default function ContactSection() {
@@ -62,7 +62,7 @@ export default function ContactSection() {
           {/* Left: Info */}
           <div className="lg:col-span-2 flex flex-col gap-8">
             <p className="font-body text-[#888] text-base leading-relaxed">
-              Pronto para escalar seus resultados? Fale com nosso time e descubra como a House 42 pode transformar sua operação de mídia paga.
+              Pronto para transformar seu negócio? Fale com nosso time e descubra como a House 42 pode ser seu centro de diagnósticos.
             </p>
 
             <div className="flex flex-col gap-5">
@@ -82,30 +82,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <div className="font-condensed font-700 text-white text-sm tracking-wide mb-0.5">Localização</div>
-                  <div className="font-body text-[#777] text-sm">São Paulo, SP — Brasil</div>
+                  <div className="font-body text-[#777] text-sm">Everywhere</div>
                 </div>
-              </div>
-            </div>
-
-            {/* Social */}
-            <div>
-              <div className="font-condensed font-600 text-xs tracking-widest uppercase text-[#555] mb-4">
-                Redes Sociais
-              </div>
-              <div className="flex gap-3">
-                {[
-                  { icon: Instagram, label: "Instagram" },
-                  { icon: Linkedin, label: "LinkedIn" },
-                ].map(({ icon: Icon, label }) => (
-                  <button
-                    key={label}
-                    onClick={() => toast("Em breve!", { style: { background: "#111", border: "1px solid #333", color: "#fff" } })}
-                    className="w-10 h-10 bg-[#111] border border-[#1a1a1a] flex items-center justify-center text-[#555] hover:text-[#D0021B] hover:border-[#D0021B]/50 transition-colors"
-                    title={label}
-                  >
-                    <Icon size={16} />
-                  </button>
-                ))}
               </div>
             </div>
 

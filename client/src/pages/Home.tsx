@@ -10,6 +10,7 @@ import Ticker from "@/components/Ticker";
 import PerformanceSection from "@/components/PerformanceSection";
 import ServicesSection from "@/components/ServicesSection";
 import ResultsSection from "@/components/ResultsSection";
+import ClientsSection from "@/components/ClientsSection";
 import ManifestoSection from "@/components/ManifestoSection";
 import FounderSection from "@/components/FounderSection";
 import TeamsSection from "@/components/TeamsSection";
@@ -25,6 +26,7 @@ export default function Home() {
       <PerformanceSection />
       <ServicesSection />
       <ResultsSection />
+      <ClientsSection />
       <ManifestoSection />
       <FounderSection />
       <TeamsSection />
