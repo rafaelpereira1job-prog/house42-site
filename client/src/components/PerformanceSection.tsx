@@ -91,7 +91,7 @@ export default function PerformanceSection() {
               <div className="absolute inset-0 bg-gradient-to-r from-[#080808]/60 to-transparent" />
               {/* Overlay stat */}
               <div className="absolute bottom-6 left-6 bg-[#D0021B] px-4 py-3">
-                <div className="font-stat font-700 text-white text-3xl">340%</div>
+                <div className="font-stat font-700 text-white text-3xl">935%</div>
                 <div className="font-condensed text-white/80 text-xs tracking-widest uppercase">ROAS Médio</div>
               </div>
             </div>
