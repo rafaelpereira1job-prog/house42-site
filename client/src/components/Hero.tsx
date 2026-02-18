@@ -11,10 +11,10 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const HERO_BG = "https://private-us-east-1.manuscdn.com/sessionFile/PuMT0qMreoSCGZfod7tJ70/sandbox/uQve9Gqi0qRPKbRKtF1aLP-img-1_1771444994000_na1fn_aG91c2U0Mi1oZXJvLWJn.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUHVNVDBxTXJlb1NDR1pmb2Q3dEo3MC9zYW5kYm94L3VRdmU5R3FpMHFSUEtiUkt0RjFhTFAtaW1nLTFfMTc3MTQ0NDk5NDAwMF9uYTFmbl9hRzkxYzJVME1pMW9aWEp2TFdKbi5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=fFEb4gn5d5irU8u7SGPUzQdZMoIhW5FCRxW3pjTRWilUuEV8MWYPIeaduNxlhOKw7WMh3yXC0mzm0Kqes9unWdBJXCpMNE68E5nxi~QwC49mCSA4YJuRVtI9Jha8Q3q43c1sYc4CwQQi7BvCDo2ubW9MQcx3jufPNrIJDGMPcDZHo3okqJ2IZsZJISi3Ics0g2ky5iy0noo5I~yhv3Q25n9ogTPnBN1gC9iHU2vBn1iGO~-Y37zPYfSPWMfQQ2ICh5aViL3ihdyRMeFkFta2jedvu4MY6MNqB4u3ALNzJOcRvrlNqaQnpioCRLTTq9oldkP6t0c6APqQNMMMVbmU0w__";
 
 const stats = [
-  { value: "R$2.4M+", label: "Em receita gerada" },
-  { value: "340%", label: "ROAS médio" },
+  { value: "R$10M+", label: "Em receita gerada" },
+  { value: "935%", label: "ROAS médio" },
   { value: "180+", label: "Campanhas ativas" },
-  { value: "98%", label: "Retenção de clientes" },
+  { value: "9+", label: "Anos de experiência" },
 ];
 
 export default function Hero() {

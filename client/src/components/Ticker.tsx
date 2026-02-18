@@ -6,9 +6,9 @@
 
 const items = [
   "MÍDIA PAGA DE PERFORMANCE",
-  "★ ROAS MÉDIO 340%",
+  "★ R$10M+ EM RECEITA GERADA",
   "GOOGLE ADS",
-  "★ META ADS",
+  "★ ROAS MÉDIO 935%",
   "TIKTOK ADS",
   "★ +180 CAMPANHAS ATIVAS",
   "CRIAÇÃO DE CONTEÚDO",
@@ -16,9 +16,9 @@ const items = [
   "RESULTADOS REAIS",
   "★ HOUSE 42",
   "MÍDIA PAGA DE PERFORMANCE",
-  "★ ROAS MÉDIO 340%",
+  "★ R$10M+ EM RECEITA GERADA",
   "GOOGLE ADS",
-  "★ META ADS",
+  "★ ROAS MÉDIO 935%",
   "TIKTOK ADS",
   "★ +180 CAMPANHAS ATIVAS",
   "CRIAÇÃO DE CONTEÚDO",
