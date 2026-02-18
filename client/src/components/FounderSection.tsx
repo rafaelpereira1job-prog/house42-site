@@ -44,7 +44,7 @@ export default function FounderSection() {
             <div className="relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
               <img
                 src={FOUNDER_IMG}
-                alt="Marcelo - Fundador House 42"
+                alt="Rafael Pereira - Fundador House 42"
                 className="w-full h-full object-cover"
               />
               {/* Gradient overlay */}
@@ -78,10 +78,6 @@ export default function FounderSection() {
               Com 9+ anos de experiência em mídia paga e marketing, Rafael trabalhou com grandes marcas como Autoglass, Piccadilly, Bibi, iPlace e muitas outras. Formado em Publicidade e Propaganda pela Unisinos, sua missão é ser um centro de diagnóstico para transformar negócios.
             </p>
 
-            <p className="font-body text-[#777] text-sm leading-relaxed mb-10">
-              "Cansado de ver agências aceitarem projetos em que não acreditavam, criei a House 42 para trabalhar apenas com projetos que conseguimos mover os ponteiros. Gente boa + perseguir a perfeição + acreditar no que faz."
-            </p>
-
             {/* Achievements */}
             <div className="space-y-4">
               <div className="flex items-center gap-3">
@@ -112,9 +108,6 @@ export default function FounderSection() {
 
             {/* CTA */}
             <div className="mt-10 pt-8 border-t border-[#1a1a1a]">
-              <p className="font-body text-[#666] text-sm mb-4">
-                Quer conversar com Rafael sobre sua estratégia de transformação?
-              </p>
               <button
                 onClick={() => {
                   const el = document.querySelector("#contact");
@@ -122,7 +115,7 @@ export default function FounderSection() {
                 }}
                 className="btn-h42 btn-h42-solid text-sm"
               >
-                <span>Agendar Conversa</span>
+                <span>Conversar com Rafael</span>
               </button>
             </div>
           </div>

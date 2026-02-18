@@ -13,7 +13,6 @@ import ResultsSection from "@/components/ResultsSection";
 import ClientsSection from "@/components/ClientsSection";
 import ManifestoSection from "@/components/ManifestoSection";
 import FounderSection from "@/components/FounderSection";
-import TeamsSection from "@/components/TeamsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -29,7 +28,6 @@ export default function Home() {
       <ClientsSection />
       <ManifestoSection />
       <FounderSection />
-      <TeamsSection />
       <ContactSection />
       <Footer />
     </div>

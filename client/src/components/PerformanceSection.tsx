@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useRef, useState } from "react";
-import { TrendingUp, Target, BarChart3, Zap, ArrowRight } from "lucide-react";
+import { TrendingUp, Target, BarChart3, ArrowRight } from "lucide-react";
 
 const PERF_BG = "https://private-us-east-1.manuscdn.com/sessionFile/PuMT0qMreoSCGZfod7tJ70/sandbox/uQve9Gqi0qRPKbRKtF1aLP-img-2_1771444988000_na1fn_aG91c2U0Mi1wZXJmb3JtYW5jZS1zZWN0aW9u.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUHVNVDBxTXJlb1NDR1pmb2Q3dEo3MC9zYW5kYm94L3VRdmU5R3FpMHFSUEtiUkt0RjFhTFAtaW1nLTJfMTc3MTQ0NDk4ODAwMF9uYTFmbl9hRzkxYzJVME1pMXdaWEptYjNKdFlXNWpaUzF6WldOMGFXOXUuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=pXZ0q2cf~MjaXqY56XFY9HY49jJ50WJSd8dlePB1t0TLzAvcEQjac7rSW-Mm9NRoXTVS8KqP-fLAQ21zprJt-oIWE04RdD72vXG0WwiK1exWM-FNP5sCuFgPzMckRKqAfrt0zmMci6XoL0YqZHzXCKaa7ueb2IkU4~I4R7MQjuBJwzaQzL4sNd7JHQ4F1X6iVw20B4o2bzKzpPQ5Z0bldww~6v1N9acZfLT2gdrqx2HGuYFkEKE25TwUnWnZw81K~eSQC2ZPOyxP3jdAZQ8dkvecgFLWJNN3CqEJXCdPoxHPBYU3NLq5AE5wGoO7ZlllgaIafs6RG1B-wWZ~gEfDgA__";
 
@@ -21,23 +21,18 @@ const platforms = [
 const features = [
   {
     icon: Target,
-    title: "Estratégia de Mídia",
-    desc: "Planejamento completo de funil, segmentação avançada e alocação inteligente de budget para maximizar cada real investido.",
+    title: "Estratégia Inteligente",
+    desc: "Planejamento de funil com segmentação avançada. Cada real tem um objetivo claro e mensurável.",
   },
   {
     icon: BarChart3,
     title: "Otimização Contínua",
-    desc: "Análise diária de performance, testes A/B sistemáticos e ajustes em tempo real para escalar o que funciona.",
+    desc: "Testes A/B sistemáticos e ajustes em tempo real para escalar o que funciona.",
   },
   {
     icon: TrendingUp,
-    title: "Escala com Controle",
-    desc: "Crescimento sustentável com manutenção do ROAS. Sabemos quando acelerar e quando preservar a eficiência.",
-  },
-  {
-    icon: Zap,
-    title: "Relatórios em Tempo Real",
-    desc: "Dashboards personalizados com os KPIs que importam para o seu negócio. Transparência total, sem enrolação.",
+    title: "Crescimento Sustentável",
+    desc: "ROAS em alta com manutenção de eficiência. Sabemos quando acelerar e quando preservar.",
   },
 ];
 
