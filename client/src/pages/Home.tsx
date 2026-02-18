@@ -11,6 +11,7 @@ import PerformanceSection from "@/components/PerformanceSection";
 import ServicesSection from "@/components/ServicesSection";
 import ResultsSection from "@/components/ResultsSection";
 import ManifestoSection from "@/components/ManifestoSection";
+import FounderSection from "@/components/FounderSection";
 import TeamsSection from "@/components/TeamsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -25,6 +26,7 @@ export default function Home() {
       <ServicesSection />
       <ResultsSection />
       <ManifestoSection />
+      <FounderSection />
       <TeamsSection />
       <ContactSection />
       <Footer />
