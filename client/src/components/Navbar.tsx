@@ -12,7 +12,6 @@ const navLinks = [
   { label: "Performance", href: "#performance" },
   { label: "Serviços", href: "#services" },
   { label: "Resultados", href: "#results" },
-  { label: "Times", href: "#teams" },
   { label: "Contato", href: "#contact" },
 ];
 
@@ -47,14 +46,13 @@ export default function Navbar() {
           {/* Logo */}
           <button
             onClick={() => handleNavClick("#hero")}
-            className="flex items-center gap-3 group"
+            className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 bg-[#D0021B] flex items-center justify-center font-display text-white text-xl leading-none">
-              42
-            </div>
-            <span className="font-display text-white text-2xl tracking-widest group-hover:text-[#D0021B] transition-colors">
-              HOUSE 42
-            </span>
+            <img
+              src="https://private-us-east-1.manuscdn.com/sessionFile/PuMT0qMreoSCGZfod7tJ70/sandbox/R5L052uAsRNXXrzdxxFB9J-img-1_1771448521000_na1fn_aG91c2U0Mi1sb2dv.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvUHVNVDBxTXJlb1NDR1pmb2Q3dEo3MC9zYW5kYm94L1I1TDA1MnVBc1JOWFhyemR4eEZCOUotaW1nLTFfMTc3MTQ0ODUyMTAwMF9uYTFmbl9hRzkxYzJVME1pMXNiMmR2LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=kNF5lpjStnKnn3mlxAHE2O5M-azLuwazmOMVtco6~2w4ruh0TehR90LFSiXBjbJqz-d7C4y4pCDmPjNTMS6cMFbtJF0e4TIBl7cRhFOqdxz3g0hmfAYxkf18lKsyDmP82IdvDREcVPyflbvr78-~Xx8KpBkvoDyk1EMIykJMBHSrES4bwMPXAenOA2xv~wKv4xIoTvfR8Trwon6xYTbkHdTkes52M5F3u0b8cIHG87JTpnEnXwfFtazSXGMTphQLEukFIB11dzuC0RnfMZ6jid9pobV4kg5ZC-9swU6D4ius-l0KiZD9kmA9krrI8-tA-y8V8DhJNI2-120iv9DFKQ__"
+              alt="House 42 Logo"
+              className="h-10 w-auto group-hover:opacity-80 transition-opacity"
+            />
           </button>
 
           {/* Desktop Links */}

@@ -7,12 +7,11 @@
 import { useEffect, useRef, useState } from "react";
 
 const metrics = [
-  { value: 2.4, suffix: "M+", prefix: "R$", label: "Em receita gerada para clientes", decimals: 1 },
-  { value: 340, suffix: "%", prefix: "", label: "ROAS médio nas campanhas", decimals: 0 },
+  { value: 10, suffix: "M+", prefix: "R$", label: "Em receita gerada para clientes", decimals: 0 },
+  { value: 935, suffix: "%", prefix: "", label: "ROAS médio nas campanhas", decimals: 0 },
   { value: 180, suffix: "+", prefix: "", label: "Campanhas ativas simultaneamente", decimals: 0 },
-  { value: 98, suffix: "%", prefix: "", label: "Taxa de retenção de clientes", decimals: 0 },
   { value: 4.2, suffix: "M+", prefix: "", label: "Impressões entregues por mês", decimals: 1 },
-  { value: 3, suffix: " anos", prefix: "+", label: "De experiência em performance", decimals: 0 },
+  { value: 9, suffix: "+", prefix: "", label: "Anos de experiência em performance", decimals: 0 },
 ];
 
 const cases = [
