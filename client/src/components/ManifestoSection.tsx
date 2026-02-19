@@ -1,7 +1,7 @@
 /**
  * House 42 Manifesto Section
  * Design: Dark Sport Luxury — bold statement section
- * Full-width red background with powerful copy
+ * Full-width background with powerful copy
  */
 
 import { useEffect, useRef, useState } from "react";
@@ -41,13 +41,13 @@ export default function ManifestoSection() {
           <div className="max-w-4xl">
             <p className="font-display text-white leading-tight mb-6" style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}>
               HOUSE 42:
-              <span className="text-[#D0021B]"> UM CENTRO DE DIAGNÓSTICOS</span>
+              <span className="text-[#D0021B]"> UM CENTRO DE DIAGNÓSTICO</span>
             </p>
             <p className="font-body text-[#777] text-lg leading-relaxed max-w-2xl mb-6">
-              House vem da icônica série de TV, onde um médico renomado recebia os casos mais complexos. Assim como ele, somos uma casa de diagnósticos — entendemos a fundo como ser um agente transformador no seu negócio e levá-lo para o próximo nível.
+              Somos um centro de diagnóstico especializado em performance marketing. Analisamos profundamente cada desafio do seu negócio, identificamos oportunidades de crescimento e executamos estratégias que movem os ponteiros. Com mais de 9 anos de experiência, transformamos dados em resultados reais.
             </p>
             <p className="font-body text-[#777] text-lg leading-relaxed max-w-2xl">
-              42 é a resposta final do supercomputador do Guia do Mochileiro das Galáxias para "Qual é a resposta para tudo?". Talvez não consigamos chegar ao 42 sempre, mas é um lembrete para buscar sempre a melhor resposta. Gente boa + perseguir a perfeição + acreditar no que faz. Essa é a House 42.
+              Na House 42, acreditamos que o sucesso vem de profissionais qualificados, perseguindo a perfeição e acreditando no que fazem. Isso é o que nos molda e o que entregamos para cada cliente.
             </p>
           </div>
         </div>
@@ -57,20 +57,20 @@ export default function ManifestoSection() {
           <div className={`relative transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: "0ms" }}>
             <div className="font-display text-[#D0021B]/20 text-8xl leading-none mb-4 select-none">01</div>
             <div className="absolute top-8 left-0"><div className="w-8 h-0.5 bg-[#D0021B] mb-4" /></div>
-            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Gente Boa</h3>
-            <p className="font-body text-[#777] text-sm leading-relaxed">Trabalhamos com profissionais que compartilham nossos valores. Cada projeto é único, então curamos os melhores talentos para sua demanda.</p>
+            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Profissionais Qualificados</h3>
+            <p className="font-body text-[#777] text-sm leading-relaxed">Trabalhamos com especialistas que dominam cada aspecto de performance marketing. Expertise, dedicação e comprometimento com resultados.</p>
           </div>
           <div className={`relative transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: "150ms" }}>
             <div className="font-display text-[#D0021B]/20 text-8xl leading-none mb-4 select-none">02</div>
             <div className="absolute top-8 left-0"><div className="w-8 h-0.5 bg-[#D0021B] mb-4" /></div>
-            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Perseguir a Perfeição</h3>
-            <p className="font-body text-[#777] text-sm leading-relaxed">Não aceitamos resultados mediocres. Cada detalhe importa, desde a estratégia até a execução. Buscamos sempre mover os ponteiros.</p>
+            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Perseguindo a Perfeição</h3>
+            <p className="font-body text-[#777] text-sm leading-relaxed">Não aceitamos resultados mediocres. Cada estratégia, cada criativo, cada otimização é pensada para maximizar performance e gerar impacto real.</p>
           </div>
           <div className={`relative transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: "300ms" }}>
             <div className="font-display text-[#D0021B]/20 text-8xl leading-none mb-4 select-none">03</div>
             <div className="absolute top-8 left-0"><div className="w-8 h-0.5 bg-[#D0021B] mb-4" /></div>
-            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Acreditar no Que Faz</h3>
-            <p className="font-body text-[#777] text-sm leading-relaxed">Só trabalhamos com projetos em que realmente acreditamos. Isso garante dedicação total e resultados que transformam negócios.</p>
+            <h3 className="font-condensed font-700 text-white text-xl tracking-wide mb-3 mt-2">Acreditando no Que Fazemos</h3>
+            <p className="font-body text-[#777] text-sm leading-relaxed">Só trabalhamos com projetos que fazem sentido para nós. Essa convicção garante dedicação total e resultados que transformam negócios.</p>
           </div>
         </div>
       </div>

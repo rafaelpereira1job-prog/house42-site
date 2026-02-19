@@ -61,7 +61,7 @@ export default function FounderSection() {
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-0.5 bg-[#D0021B]" />
               <span className="font-condensed font-600 text-sm tracking-[0.3em] uppercase text-[#D0021B]">
-                Conheça o Fundador
+                Conheça o Dono
               </span>
             </div>
 
@@ -71,7 +71,7 @@ export default function FounderSection() {
             </h2>
 
             <p className="font-condensed font-600 text-[#D0021B] text-lg tracking-wide mb-6">
-              Fundador & Publicitário
+              Dono & Publicitário
             </p>
 
             <p className="font-body text-[#888] text-base leading-relaxed mb-8">

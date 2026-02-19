@@ -12,7 +12,6 @@ import ServicesSection from "@/components/ServicesSection";
 import ResultsSection from "@/components/ResultsSection";
 import ClientsSection from "@/components/ClientsSection";
 import ManifestoSection from "@/components/ManifestoSection";
-import FounderSection from "@/components/FounderSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -27,7 +26,6 @@ export default function Home() {
       <ResultsSection />
       <ClientsSection />
       <ManifestoSection />
-      <FounderSection />
       <ContactSection />
       <Footer />
     </div>
