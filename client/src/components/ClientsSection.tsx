@@ -14,6 +14,10 @@ const clients = [
   "Bibi",
   "iPlace",
   "Hocks",
+  "Comsul",
+  "Telagro",
+  "Half",
+  "NPX Náutica",
   "Intensidade Máxima",
   "Grupo A",
   "Enter Tech",
@@ -99,7 +103,7 @@ export default function ClientsSection() {
 
           <div>
             <div className="font-condensed font-700 text-white text-lg tracking-wide">Rafael Pereira</div>
-            <div className="font-body text-[#666] text-sm">Fundador, House 42</div>
+            <div className="font-body text-[#666] text-sm">Dono, House 42</div>
           </div>
         </div>
       </div>

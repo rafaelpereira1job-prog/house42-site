@@ -14,26 +14,6 @@ const metrics = [
   { value: 9, suffix: "+", prefix: "", label: "Anos de experiência em performance", decimals: 0 },
 ];
 
-const cases = [
-  {
-    client: "E-commerce de Moda",
-    result: "+420% ROAS",
-    period: "em 90 dias",
-    desc: "Reestruturação completa das campanhas Meta Ads com foco em remarketing dinâmico.",
-  },
-  {
-    client: "SaaS B2B",
-    result: "-62% CPL",
-    period: "em 60 dias",
-    desc: "Otimização de funil no Google Ads com segmentação por intenção de compra.",
-  },
-  {
-    client: "Clínica de Saúde",
-    result: "+280% Leads",
-    period: "em 45 dias",
-    desc: "Estratégia omnichannel integrando Meta, Google e TikTok Ads.",
-  },
-];
 
 function AnimatedCounter({ target, suffix, prefix, decimals }: {
   target: number; suffix: string; prefix: string; decimals: number;
@@ -136,44 +116,7 @@ export default function ResultsSection() {
         </div>
       </div>
 
-      {/* Cases block */}
-      <div className="bg-[#080808] py-20">
-        <div ref={ref} className="container">
-          <div className={`mb-12 transition-all duration-700 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-0.5 bg-[#D0021B]" />
-              <span className="font-condensed font-600 text-sm tracking-[0.3em] uppercase text-[#D0021B]">
-                Cases de Sucesso
-              </span>
-            </div>
-            <h2 className="font-display text-white leading-none" style={{ fontSize: "clamp(2.5rem, 5vw, 5rem)" }}>
-              HISTÓRIAS<br />
-              <span className="text-[#D0021B]">REAIS</span>
-            </h2>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {cases.map((c, i) => (
-              <div
-                key={c.client}
-                className={`card-h42 p-8 transition-all duration-700 ${
-                  inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-                }`}
-                style={{ transitionDelay: `${i * 150}ms` }}
-              >
-                <div className="font-condensed font-600 text-xs tracking-widest uppercase text-[#555] mb-3">
-                  {c.client}
-                </div>
-                <div className="font-stat font-700 text-[#D0021B] mb-1" style={{ fontSize: "clamp(1.75rem, 3vw, 2.5rem)" }}>
-                  {c.result}
-                </div>
-                <div className="font-condensed text-[#555] text-sm mb-4">{c.period}</div>
-                <p className="font-body text-[#777] text-sm leading-relaxed">{c.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
