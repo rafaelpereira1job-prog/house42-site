@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useRef, useState } from "react";
-import { Megaphone, Film, Image, ClipboardList, LineChart, Users } from "lucide-react";
+import { Megaphone, Film, Image, ClipboardList, Users } from "lucide-react";
 
 const services = [
   {
@@ -16,14 +16,7 @@ const services = [
     highlight: true,
     items: ["Meta Ads", "Google Ads", "TikTok Ads", "LinkedIn Ads"],
   },
-  {
-    icon: LineChart,
-    tag: "Core",
-    title: "Analytics & BI",
-    desc: "Dashboards personalizados, atribuição de conversão e análise profunda de dados para decisões mais inteligentes.",
-    highlight: false,
-    items: ["Google Analytics 4", "Data Studio", "UTM Tracking", "Pixel Setup"],
-  },
+
   {
     icon: Film,
     tag: "Criação",
