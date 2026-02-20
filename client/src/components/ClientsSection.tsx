@@ -5,7 +5,6 @@
  */
 
 import { useEffect, useRef, useState } from "react";
-import { Star } from "lucide-react";
 
 const clients = [
   "Autoglass",
@@ -86,26 +85,7 @@ export default function ClientsSection() {
           ))}
         </div>
 
-        {/* Testimonial */}
-        <div className={`bg-[#111] border border-[#D0021B]/20 p-8 md:p-12 relative transition-all duration-700 delay-500 ${inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          {/* Quote mark */}
-          <div className="absolute top-4 left-6 text-[#D0021B]/10 text-6xl font-display leading-none">"</div>
 
-          <div className="flex items-start gap-4 mb-6">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <Star key={star} size={18} className="fill-[#D0021B] text-[#D0021B]" />
-            ))}
-          </div>
-
-          <p className="font-body text-[#ccc] text-lg leading-relaxed mb-6 max-w-3xl">
-            Trabalhando com tanta gente e negócios inspiradores, quis trazer uma pequena inovação para o ramo, mas que possibilite uma grande mudança na linha final. Esse diferencial da House 42 está diretamente ligado aos nossos valores: <span className="text-[#D0021B] font-semibold">gente boa + perseguir a perfeição + acreditar no que faz</span>.
-          </p>
-
-          <div>
-            <div className="font-condensed font-700 text-white text-lg tracking-wide">Rafael Pereira</div>
-            <div className="font-body text-[#666] text-sm">Dono, House 42</div>
-          </div>
-        </div>
       </div>
     </section>
   );
