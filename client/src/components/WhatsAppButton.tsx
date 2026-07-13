@@ -5,7 +5,7 @@ export default function WhatsAppButton() {
   const href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(MESSAGE)}`;
   const classes =
     "fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg transition-transform duration-200 hover:scale-110";
-<a
+
   return (
     <a href={href} target="_blank" rel="noopener noreferrer" aria-label="Fale conosco no WhatsApp" className={classes}>
       <svg viewBox="0 0 32 32" className="h-8 w-8 fill-white" aria-hidden="true">
