@@ -7,6 +7,9 @@ import { useState } from "react";
 import { Send, MapPin, Mail } from "lucide-react";
 import { toast } from "sonner";
 
+// ⬇️ TROQUE "SEU_ID_AQUI" PELO CÓDIGO DO SEU FORM NO FORMSPREE
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mlgqezzd";
+
 export default function ContactSection() {
   const [form, setForm] = useState({
     name: "",
@@ -21,16 +24,35 @@ export default function ContactSection() {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSending(true);
-    setTimeout(() => {
-      setSending(false);
-      toast.success("Mensagem enviada! Entraremos em contato em breve.", {
-        style: { background: "#111", border: "1px solid #D0021B", color: "#fff" },
+
+    const toastStyle = { background: "#111", border: "1px solid #D0021B", color: "#fff" };
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          nome: form.name,
+          email: form.email,
+          empresa: form.company,
+          budget: form.budget,
+          mensagem: form.message,
+          _subject: `Novo contato pelo site: ${form.name}`,
+        }),
       });
+
+      if (!response.ok) throw new Error("Falha no envio");
+
+      toast.success("Mensagem enviada! Entraremos em contato em breve.", { style: toastStyle });
       setForm({ name: "", email: "", company: "", budget: "", message: "" });
-    }, 1500);
+    } catch {
+      toast.error("Não foi possível enviar. Tente novamente ou escreva para contato@house42.com.br", { style: toastStyle });
+    } finally {
+      setSending(false);
+    }
   };
 
   const inputClass = "w-full bg-[#111] border border-[#1a1a1a] text-white font-body text-sm px-4 py-3 focus:outline-none focus:border-[#D0021B] transition-colors placeholder:text-[#444]";
